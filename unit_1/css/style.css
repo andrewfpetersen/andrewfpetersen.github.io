@@ -1,7 +1,18 @@
 body {
-    background-color: black;
+	background: url("C:\Users\andrewfpetersen\Desktop\GA\andrewfpetersen.github.io\unit_1\images\hero.jpeg");
+    background-size: cover;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: 200;
 }
-
-h1, p {
-    color: white;
+h1 {
+	font-size: 144px;
+}
+p {
+	font-size: 72px;
+}
+#and {
+	color: #EA1E1E;
+	font-style: italic;
+	font-weight: 500;
 }
