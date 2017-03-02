@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 * {
 	padding: 0;
@@ -12,23 +12,22 @@ body {
     color: #fff;
 }
 #h1 {
-	font-size: 120px;
+	font-size: 100px;
 	font-weight: 100;
 }
 #and0 {
-	font-size: 120px;
+	font-size: 100px;
 	font-weight: 300;
 	color: #ff3333;
 }
 main, #slogan2  {
-	font-weight: 100;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Roboto Slab', serif;
 	display: inline-block; 
-	width: 58%;
-	padding: 2%;
-	text-align: justify;
+	width: 60%;
+	text-align: left;
 	margin-left: 20%;
+	padding-bottom: 0.5em;
 }
 #slogan2 {
 	text-align: center;
@@ -39,14 +38,13 @@ header {
 footer {
 	font-weight: 300;
 	font-size: 15px;
-	padding: 0.2em;
-	margin: 0.2em;
-	text-align: center;
+	padding: 0px;
+	margin-right: 1%;
+	text-align: right;
 }
 nav {
-	font-size: 20px;
+	font-size: 25px;
 	color: #ff3333;
-	padding: 0.5em;
 }
 a {
 	padding: 0.75em;
@@ -55,41 +53,46 @@ a:link {
 	color: #ff3333;
 	background-color:transparent;
 	text-decoration:none;
-	font-weight: 100;
+	font-weight: 300;
 }
 a:visited {
 	color: #ff3333; 
 	background-color:transparent; 
 	text-decoration:none;
-	font-weight: 100;
+	font-weight: 300;
 }
 a:hover {
 	color: #fff; 
 	background-color:transparent; 
 	text-decoration:none;
-	font-weight: 100;
+	font-weight: 300;
 }
 a:active {
 	color: #fff; 
 	background-color:transparent; 
 	text-decoration:none;
-	font-weight: 100;
+	font-weight: 300;
 }
 .and {
-	font-weight: 300;
 	color: #ff3333;
-	font-size: 25px;
+	font-size: 22px;
 }	
 #slogan0 {
 	font-size: 60px;
 	font-style: italic;
 }
 #slogan1 {
-	font-weight: 300;
-	font-style: italic;
-	font-size: 25px;
+	font-style: normal;
 }
-.and1 {
+#and1 {
 	color: #ff3333;
 	font-weight: 300;
+}
+#and2 {
+	color: #ff3333;
+	font-size: 22px;
+}
+div {
+	margin: 0.0%;
+	padding: 0.0%;
 }
