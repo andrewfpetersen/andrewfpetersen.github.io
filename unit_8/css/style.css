@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background-image: url("file:///C:/Users/andrewfpetersen/Desktop/GA/andrewfpetersen.github.io/unit_3/images/Hero.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+#h1 {
+	font-size: 100px;
+	font-weight: 100;
+}
+#and0 {
+	font-weight: 300;
+	color: #ff3333;
+}
+main, #slogan2  {
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	display: inline-block; 
+	width: 60%;
+	text-align: left;
+	margin-left: 20%;
+}
+#slogan2 {
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+footer {
+	font-weight: 300;
+	font-size: 15px;
+	padding: 0px;
+	margin-right: 1%;
+	text-align: right;
+}
+nav {
+	font-size: 25px;
+	padding: 1em;
+	color: #ff3333;
+}
+a {
+	padding: 0.75em;
+}
+a:link {
+	color: #ff3333;
+	background-color:transparent;
+	text-decoration:none;
+	font-weight: 300;
+}
+a:visited {
+	color: #ff3333; 
+	background-color:transparent; 
+	text-decoration:none;
+	font-weight: 300;
+}
+a:hover {
+	color: #fff; 
+	background-color:transparent; 
+	text-decoration:none;
+	font-weight: 300;
+}
+a:active {
+	color: #fff; 
+	background-color:transparent; 
+	text-decoration:none;
+	font-weight: 300;
+}
+.and {
+	color: #ff3333;
+	font-size: 22px;
+}	
+#slogan0 {
+	font-size: 50px;
+	padding:0 0 0 .4em;
+	font-style: italic;
+}
+#slogan1 {
+	font-style: normal;
+}
+#and1 {
+	color: #ff3333;
+	font-weight: 300;
+}
+#and2 {
+	color: #ff3333;
+	font-size: 22px;
+}
+div {
+	margin: 0.0%;
+	padding: 0.0%;
+}
