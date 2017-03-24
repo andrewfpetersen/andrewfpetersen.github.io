@@ -1,48 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
     background-image: url("file:///C:/Users/andrewfpetersen/Desktop/GA/andrewfpetersen.github.io/unit_3/images/Hero.jpg");
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    text-align: center;
 }
+h1 {
+	margin-left: 20%;
+}
+
 #h1 {
-	font-size: 100px;
+	font-size: 110px;
 	font-weight: 100;
 }
 #and0 {
 	font-weight: 300;
 	color: #ff3333;
 }
-main, #slogan2  {
+main  {
 	font-size: 18px;
 	font-family: 'Roboto Slab', serif;
-	display: inline-block; 
-	width: 60%;
+	width: 79%;
 	text-align: left;
 	margin-left: 20%;
-}
-#slogan2 {
-	text-align: center;
-}
-header {
-	text-align: center;
-}
-footer {
-	font-weight: 300;
-	font-size: 15px;
-	padding: 0px;
 	margin-right: 1%;
+	margin-top: 1em;
+}
+#P2 {
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	width: 90%;
 	text-align: right;
-}
+	margin-left: 0%;
+	margin-right: 10%;
+} 
+
 nav {
-	font-size: 25px;
-	padding: 1em;
-	color: #ff3333;
+	text-align: center;
+	width: 15%; 
+	float: left;	
+
 }
+
 a {
-	padding: 0.75em;
+	color: #ff3333;
+	display: block;
+	font-size: 30px;
+	margin: 1.5em 10% 1.5em 10%;
+}
+
+h4 {
+	display: block;
+	margin: 4em 10% 2em 10%;
+	font-size: 15px;
+	font-weight: 100;
+	color: #fff;
 }
 a:link {
 	color: #ff3333;
@@ -77,18 +97,90 @@ a:active {
 	padding:0 0 0 .4em;
 	font-style: italic;
 }
-#slogan1 {
-	font-style: normal;
-}
+
 #and1 {
 	color: #ff3333;
-	font-weight: 300;
 }
-#and2 {
-	color: #ff3333;
-	font-size: 22px;
+
+
+.one {
+    background-color: #fff;
+    width: 100%;
+    height:1px;
+    border-radius:3px;
+    margin-top:200px;
+    position:absolute;
 }
-div {
-	margin: 0.0%;
-	padding: 0.0%;
+
+
+
+.three {
+    background-color: #fff;
+    width:1px;
+    height: 100%;
+    border-radius:3px;
+    margin-left:15%;
+    position:absolute;
+}
+
+
+@media only screen and (max-width: 950px) {
+	#h1 {
+		font-size: 75px;
+		font-weight: 100; 
+	}
+	.one {
+		background-color: #fff;
+    	width: 100%;
+    	height:1px;
+    	border-radius:3px;
+    	margin-top:160px;
+    	position:absolute;
+	}
+	#P2	{
+		width: 98%;
+		margin-right: 2%;
+	}
+
+}
+
+@media only screen and (max-width: 840px) {
+	main, #P2 {
+		font-size: 15px;
+	}
+	#h1 {
+		font-size: 80px;
+	}
+	#slogan0 {
+		font-size: 42px;
+	}
+	a {
+		font-size: 25px;
+	}
+	.and {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	main, #P2 {
+		font-size: 12px;
+	}
+	#h1 {
+		font-size: 60px;
+	}
+	#slogan0 {
+		font-size: 30px;
+	}
+	a {
+		font-size: 16px;
+	}
+	.and {
+		font-size: 14px;
+	}
+	.one {
+		margin-top: 120px;
+	}
+	h4 {
+		font-size: 12px;
+	}
 }
